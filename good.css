@@ -1,0 +1,70 @@
+.name{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 15pt;
+ text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    float:left;
+    max-height: 100%;
+    padding-left: 10%;
+}
+
+.contact{
+    height: 300px;
+    background-color: lightblue;
+}
+
+.contactInfo{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 10pt;
+}
+
+.content {
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+}
+
+.content p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+
+
+.contentBar{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-style: solid;
+    font-size: x-large;
+}
+
+
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.license{
+    text-align: center;
+}
+
+/*
+Your professional history
+
+What you can do for a potential employer/what you have to offer
+
+Then a sidebar of important points they should know about you.
+
+You should make a page good enough you’d actually use it as your homepage.
+*/
+
