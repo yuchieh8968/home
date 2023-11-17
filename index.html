@@ -1,100 +1,92 @@
 <!DOCTYPE html>
 <html>
     <header>
-        <link rel="stylesheet" href="good.css" />
+        <title>About Me</title>
+        <link rel="icon" type="image/png" href="icons8-folder-26.png">
     </header>
+    <style>
+        .leftColumn{
+            float:left;
+            width: 230px;
+            height:800px;
+            
+        }
+
+        
+        .imgLeft{
+            float:left;
+        }
+
+        .topRow{
+            background-color:#357ebd;
+            height:150px
+        }
+        .topText{
+            margin-left: 50%;
+            border-radius: 10px;
+            border: transparent;
+            border-style: dashed;
+        }
+
+        .headShot{
+            margin-left: 30px;
+            border-radius: 50px;
+        }
+
+        p{
+            margin-top: -20px;
+        }
+
+        html{
+            width: 60%;
+            
+        }
+
+    </style>
 
     <body>
-
-        <div class = "contact">
-            <img src="me.jpg">
-            <div class="contactInfo">
-                <span class="name"><h1>Jeff Wang's Homepage<h1></span>
-                <span class="contactInfo"><p><a href = "jeffreyw200068@gmail.com">jeffreyw200068@gmail.com</a><br>+886 0911606166<br><a href="https://github.com/yuchieh8968">https://github.com/yuchieh8968 </a></p></span>
-
+        <div class="topRow">
+            <div class="imgLeft">   
+                 <img class="headShot" src="me.jpg" height="150px">
             </div>
-        </div>  
-
-
-        <div class="contentBar">
-            <a href="#info">Info</a>
-            <a href="#history">History</a>
-            <a href="#project">Project</a>
-            <a href="#offer">Offer</a>
-        </div>
-
-        <hr>
-
-        <div class = "info" id="info">
-            <h1>Who Am I?</h1>
-            <p class="infoParagraph">
-                I am a international student from Taiwan who is a self-driven learner and worker who is capable of 
-                producing products that exceeds 
-                expectations whether work individually or in a team. Always learning new programming 
-                languages, as well as practicing problems frequently on LeetCode and Cracking Coding 
-                Interview to polish and improve technological skillset. An interesting fact about me is 
-                that I received a Certificate of Distinction in May of 2015 from The Centre for Education 
-                in Mathematics and Computing of the University of Waterloo for the 2015 Pascal Contest.
-        </p>
-        </div>
-        <hr>
-
-        <div class = "history" id="history">
-            <h1>Working Experience</h1>
-            <h3>Foxconn Technology Group</h3>
-            <h4>2023/11/27-Present</h4>
-            <p>I am a Cloud Enginneer currently employed at Foxconn Technology Group based in Kaoshiung, Taiwan.</p>
-        </div>
-        <hr>
-
-        <div class="projects" id="project">
-            <h1>My Major Projects</h1>
-            <div class="stonks">
-                <h3 class="project_title">Stonks.space</h3>
-                <p class="project_description">
-                    Created a web service to provide future prediction of stocks which involved 
-                    data mining from websites and using A.I. on the backend to analysis terms and 
-                    comments of stocks to predict whether the stock value will rise or fall.
-                </p>
-
-
-            </div>
-            <div class="trial">
-                <h3 class="project_title">Trilo.io</h3>
-                <p class="project_description">
-                    Trialio is an Android app where users and create an experiment 
-                    for all app users to vote and participate in an experiment. The app 
-                    contains multiple aspects of commercial applications such as location 
-                    services, front-end design, cloud data storage and data analysis.
-                </p>
-                <a href="https://github.com/CMPUT301W21T28/trialio">Link to project. </a>
-            </div>
-            <div class="database">
-                <h3 class="project_title">Database Projects</h3>
-                <p class="project_description">
-                    The first part of the python project demonstrates how to incorporate 
-                    the SQL language into Python scripts. The scripts allow users to register 
-                    user, to login, and to search for posts, and to upload a new post in designated 
-                    local databases. The second part of the project is an extension of part 1 
-                    but incorporated into MongoDB.
-                </p>
-                <a href="https://github.com/ganeshsar/CMPUT291-Project1">Link to project part 1. </a> <br>
-                <a href="https://github.com/ganeshsar/CMPUT291-Project2">Link to project part 2. </a>
+            <div class="topText">
+                <h1>Jeff Wang</h1>
+                <h3>Software Enginner</h3>
             </div>
         </div>
-        <hr>
-
-        <div class = "offer" id="offer">
-            <h1>What I bring to the table</h1>
-            <p>
-                I am a good team player who is capable to producing products on time with the expected specifications. With experiences in python, C, HTML, CSS, Javascript, Android App development, and databases development. 
-            </p>
+        <div class="row">
+            <div class="leftColumn" style="background-color:#FFB695;">
+                <h2>Contact Details</h2>
+                <span class="contactInfo">
+                    <p>
+                        <a>jeffreyw200068@gmail.com</a>
+                        <br>+886 0911606166<br>
+                        <a>https://github.com/yuchieh8968 </a>
+                    </p>
+                </span>
+                <h2>Education</h2>
+                <span>
+                    <p><b>University of Alberta, Canada</b></p>
+                </span>
+                <h2>Skills</h2>
+            </div>
+            <div class="rightColumn" style="background-color:#96D1CD;">
+                <span class="Summary">
+                    <h2>Summary</h2>
+                    <p>
+                        I am a recent graduate who is eager to apply my knowledge 
+                        to the real world and be a contributor. Experiened C# and ASP.NET developer.
+                        Skilled in HTML, CSS, Python and C#. 
+                    </p>
+                </span>
+                <span>
+                    <h2>Experience</h2>
+                    <p><b>Software Enginner, Foxconn Percision Group</b></p>
+                    <p>November 2023 - Present</p>
+                </span>
+                <h2>Reference</h2>
+                <p>References available upon request.</p>
+            </div>
         </div>
-        <hr>
-
-        <div class="license">
-            Jeff Wang Homepage is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a> by Jeff Wang.
-            This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License.</a>
-        </div>
-    </body>
+     </body>
 </html>
